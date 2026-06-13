@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# Debug / temporary files
+debug.json
+
+# Generated logs (runtime-generated, large)
+notebooks/logs/
+
+# Do not ignore data and models needed for deployment
+!notebooks/models/*.pkl
+!notebooks/data/
